@@ -1,0 +1,47 @@
+.autoSuggest {
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+  font-size: 17px;
+}
+.form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.input {
+  height: 35px;
+  padding-left: 5px;
+  flex: 0.9;
+  border: none;
+  outline: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 15px;
+  border-top-left-radius: 5px;
+}
+.btnSearch {
+  height: 35px;
+  flex: 0.1;
+  border: none;
+  background-color: #3a89ff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+}
+.suggest {
+  font-size: 17px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.suggestItem {
+  cursor: pointer;
+  padding: 5px;
+}
+.suggestItem:hover {
+  background: #ccc;
+}
