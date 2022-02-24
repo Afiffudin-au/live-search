@@ -7,7 +7,7 @@ function AutoSuggest() {
   //HandleSearch digunakan jika user tidak mau menggunakan saran.
   const handleSearch = (e) => {
     e.preventDefault()
-    //pendeteksi jika ada space di kolom pencarian
+    //pendeteksi jika ada space kosong di kolom pencarian
     const userText = searchQuery.replace(/^\s+/, '').replace(/\s+$/, '')
     if (userText === '') {
       return
