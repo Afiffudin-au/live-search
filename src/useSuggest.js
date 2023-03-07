@@ -9,7 +9,7 @@ const useSuggest = () => {
       setKeywords([])
       return
     }
-    //jika keyword length di atas 0 alias ada isinya, akan dihapus dulu. Jika tidak dihapus akan direplace, kalau direplace performa program akan turun.
+    // optional : jika keyword length di atas 0 alias ada isinya, akan dihapus dulu.
     if (keywords.length > 0) {
       //reset keywords
       setKeywords([])
